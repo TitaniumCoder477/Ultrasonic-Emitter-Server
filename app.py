@@ -1,12 +1,9 @@
 from flask import Flask, json, abort, Response, request
 import requests
-import time
 import threading
 
 app = Flask(__name__)
-
 app.config["defaultExpiration"] = 0
-app.config["dummyState"] = "off"
 
 @app.post('/on')
 def on():
