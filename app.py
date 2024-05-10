@@ -9,7 +9,7 @@ app.config["defaultExpiration"] = 0
 def on():
     print("INFO: Client requested ON state...")
     try:
-        r = requests.post('http://192.168.1.20/on')
+        r = requests.post('http://wil-emitter-node/on')
     except Exception as e:
         print("ERROR: %s..." % e)
         abort(400)
@@ -26,7 +26,7 @@ def on():
 def off():
     print("INFO: Client requested OFF state...")
     try:
-        r = requests.post('http://192.168.1.20/off')
+        r = requests.post('http://wil-emitter-node/off')
     except Exception as e:
         print("ERROR: %s..." % e)
         abort(400)
@@ -38,7 +38,7 @@ def off():
 @app.get('/state')
 def state():
     try:
-        r = requests.get('http://192.168.1.20/state')
+        r = requests.get('http://wil-emitter-node/state')
     except Exception as e:
         print("ERROR: %s..." % e)
         abort(400)
@@ -77,7 +77,7 @@ def reboot():
                 return "Rebooting target '%s'." % target
             elif target == "nodes":
                 try:
-                    r = requests.post('http://192.168.1.20/reboot')
+                    r = requests.post('http://wil-emitter-node/reboot')
                 except Exception as e:
                     print("ERROR: %s..." % e)
                     abort(400)
