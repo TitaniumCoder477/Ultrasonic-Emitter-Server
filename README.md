@@ -13,19 +13,19 @@
 
 ## What is the project?
 
-The Ultrasonic Emitter Server product is a simple server that provides a REST middleware/proxy for remote controlling the Adafruit Feather HUZZAH ESP8266 development board, the Adafruit Latching Mini Relay FeatherWing, and the Dog Bark Deterrent by myskunkworks.net. The sister products are Ultrasonic Emitter Node and Ultrasonic Emitter App.
+The Ultrasonic Emitter Server is a REST server that provides proxies commands between the Ultrasonic Emitter App and the Ultrasonic Emitter Node. It provides additional features that the Node alone cannot handle.
 
 ## What is the MVP?
 
-The minimal valuable product is a server that turns the emitter on and off.
+The minimal valuable product is software that proxies on and off commands.
 
 ## What are the nice to haves?
 
-The nice to haves for this project obtain the current state, set an expiration when the emitter automatically switches off, and reboot the server.
+The nice to haves for this project are proxing commands to obtain the current state and reboot the node. Additionally, this server should hold an expiration value and turn the emitter off automatically. It should also reboot itself when requested.
 
 ## When will the project be complete?
 
-The project will be complete once the server is successfully proxying commands between the app and the node.
+The project will be complete once the server is successfully proxying commands between the App and the Node.
 
 ## Author
 
