@@ -38,11 +38,12 @@ The project will be complete once the server is successfully proxying commands b
 
 ## Show your support
 
-Give a ⭐️ if this project helped you!
+Send me some crypto if this project helped you!
 
-<a href="https://www.patreon.com/TitaniumCoder477">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
+* Cardano ₳  : addr1q82dcyampgw4hgwjksjtcnntfld827094yf3p72e5gp4zd75msfmkzsatwsa9dpyh38xkn76w4u7t2gnzru4ngsr2ymsl62z78
+* Solana ◎   : zdPPyKVmkimSj8a8Z13F8RBE6gosqDcatetjsHkTBev
+* Ethereum Ξ : 0x63BA87D8A3Aa7aDB0B625Aa78c96Ca5b576556C8
+* Bitcoin ₿  : bc1q4az7xep0znj5x4hrnyq8peu3qjxqtgeprns2jn
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
